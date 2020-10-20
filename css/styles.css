@@ -20,7 +20,7 @@ body {
 }
 
 .container-fluid {
-    padding: 6% 10%;
+    padding: 7% 10%;
 }
 
 a {
@@ -51,7 +51,7 @@ a {
 
 
 .top-row {
-    padding-bottom: 2rem;
+    padding-bottom: 15%;
 }
 
 .row h1 {
@@ -136,7 +136,7 @@ a {
 
 .press {
     background-color: #fcf5ed;
-    padding: 4rem 0 4rem;
+    padding-top: 4rem;
 }
 
 .press img {
@@ -152,7 +152,7 @@ a {
 /* Cards */
 
 .card-container {
-    padding-bottom: 10rem;
+    padding: 25% 4%;
 }
 
 .card {
@@ -175,9 +175,6 @@ a {
 
 /* Footer */
 
-.cta {
-    padding-bottom: 3rem;
-}
 
 .cta button {
     margin: 10px;
@@ -190,8 +187,11 @@ a {
     padding-bottom: 2rem;
 }
 
+#footer .container-fluid {
+    padding: 2%;
+}
+
 .footer {
-    padding-bottom: 20px;
     color: rgb(165, 165, 165);
 }
 
@@ -214,7 +214,7 @@ a {
 
 
 .container-fluid {
-    padding: 3% 12%;
+    padding: 7% 12%;
 }
 
 }
@@ -245,11 +245,17 @@ a {
  
 
 .container-fluid {
-    padding: 6% 15%;
+    padding: 7% 15%;
 }
 
 .top-row {
     text-align: left;
 }
+
+
+.card-container {
+    padding: 15%;
+}
+
 
 }
