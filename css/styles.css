@@ -1,66 +1,61 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #fcf5ed;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fcf5ed;
+  text-align: center;
 }
 
 /* Heading */
 
 .colored-section {
-    background-color: #a56262;
-    color: white;
+  background-color: #a56262;
+  color: white;
 }
 
 .colored-section-dark {
-    background-color: #363636;
+  background-color: #363636;
 }
 
 #title .container-fluid {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
 .container-fluid {
-    padding: 7% 10%;
+  padding: 20% 10%;
 }
 
 a {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
-
 
 .navbar-brand {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 .nav-item {
-    font-size: 1.2rem;
-    padding: 0 1rem;
+  font-size: 1.2rem;
+  padding: 0 1rem;
 }
 
-
 .navbar {
-    border-radius: 4%;
-    padding: 0;
-    margin-bottom: 2rem;
+  border-radius: 4%;
+  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .title-img {
-    display: none;
+  display: none;
 }
 
-
 .top-row {
-    padding-bottom: 15%;
+  padding-bottom: 15%;
 }
 
 .row h1 {
-    font-family: 'Philosopher', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1;
-    margin-bottom: 2rem;
+  font-family: "Philosopher", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
 }
-
 
 /*  font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu Condensed', sans-serif; 
@@ -71,157 +66,157 @@ a {
 */
 
 .row button {
-    margin: 30px 10px 15px 0;
+  margin: 30px 10px 15px 0;
 }
 
 /* Features */
 
 .features {
-    position: relative;
-    padding: 1rem;
+  position: relative;
+  padding: 1rem;
 }
 
 .features h3 {
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(243, 243, 243);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(243, 243, 243);
 }
 
 .features p {
-    color: rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
+}
+
+.feature-1 {
+  padding-bottom: 5rem;
+}
+
+.feature-2 {
+  padding-bottom: 5rem;
 }
 
 .icon {
-    color: tomato;
-    margin-bottom: 0.8rem;
+  color: tomato;
+  margin-bottom: 0.8rem;
 }
 
 .icon:hover {
-    transition: ease 0.5s;
-    color: #e48585;
+  transition: ease 0.5s;
+  color: #e48585;
 }
-
 
 /* Testimonals */
 
 .testimonial {
-    position: relative;
-    font-family: 'Philosopher', sans-serif;  
-    background-color: #fcf5ed;
+  position: relative;
+  font-family: "Philosopher", sans-serif;
+  background-color: #fcf5ed;
 }
 
 .testimonial img {
-    border-radius: 42%;
-    width: 25%;
-    padding: 20px;
+  border-radius: 42%;
+  width: 25%;
+  padding: 20px;
 }
 
 .testimonial h2 {
-    font-size: 2.2rem;
-    line-height: 1.5;
-    color: rgb(44, 44, 44);
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: rgb(44, 44, 44);
 }
 
-
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
-
 
 /* Fake press */
 
 .press {
-    background-color: #fcf5ed;
-    padding-top: 4rem;
+  background-color: #fcf5ed;
+  padding-top: 4rem;
 }
 
 .press img {
-    width: 12%;
-    margin: 20px 20px 20px;
+  width: 12%;
+  margin: 20px 20px 20px;
 }
 
 .quote-img {
-    background-image: url(.);
+  background-image: url(.);
 }
-
 
 /* Cards */
 
 .card-container {
-    padding: 25% 4%;
+  padding: 30% 4%;
 }
 
 .card {
-    background-color: #a56262;
-    color: white;
-    margin: 1rem;
-    padding: 0;
+  background-color: #a56262;
+  color: white;
+  margin: 1rem;
+  padding: 0;
 }
 
 .card-header {
-    background-color: #363636;
-    font-family: 'Lora', serif
+  background-color: #363636;
+  font-family: "Lora", serif;
 }
 
 .card-body blockquote {
-    font-size: 1.6rem;
-    font-family: 'Lora', serif;
+  font-size: 1.6rem;
+  font-family: "Lora", serif;
 }
 
+.qoute-row {
+  margin-top: 1000px;
+}
 
 /* Footer */
 
-
 .cta button {
-    margin: 10px;
+  margin: 10px;
 }
 
 .cta h3 {
-    font-family: 'Philosopher', sans-serif; 
-    color: #fcf5ed;
-    font-size: 2.7rem;
-    padding-bottom: 2rem;
+  font-family: "Philosopher", sans-serif;
+  color: #fcf5ed;
+  font-size: 2.7rem;
+  padding-bottom: 2rem;
 }
 
 #footer .container-fluid {
-    padding: 2%;
+  padding: 2%;
 }
 
 .footer {
-    color: rgb(165, 165, 165);
+  color: rgb(165, 165, 165);
 }
 
 .footer-link {
-    padding: 10px;
-    font-size: 4rem;
-    color: #fcf5ed;
-    text-decoration: none;
-    transition: 0.5s ease;
+  padding: 10px;
+  font-size: 4rem;
+  color: #fcf5ed;
+  text-decoration: none;
+  transition: 0.5s ease;
 }
 .footer-link:hover {
-    color: #a56262;
+  color: #a56262;
 }
-
-
 
 /* Resolution Specific */
 
-@media all and (min-width:768px) {
-
-
-.container-fluid {
-    padding: 7% 12%;
+@media all and (min-width: 768px) {
+  .container-fluid {
+    padding: 25% 12%;
+  }
 }
 
-}
-
-@media all and (min-width:1000px) {
-
-    .title-img {
+@media all and (min-width: 1000px) {
+  .title-img {
     max-width: 40%;
     display: inline;
     -webkit-transform: rotate(9.5deg);
@@ -232,30 +227,26 @@ a {
     margin: auto;
     position: relative;
     left: 30%;
-}
+  }
 
-.title-img:hover {
+  .title-img:hover {
     transition: ease 0.2s;
     -webkit-transform: rotate(18deg);
     -moz-transform: rotate(18deg);
     -ms-transform: rotate(18deg);
     -o-transform: rotate(18deg);
     transform: rotate(18deg);
-}
- 
+  }
 
-.container-fluid {
+  .container-fluid {
     padding: 7% 15%;
-}
+  }
 
-.top-row {
+  .top-row {
     text-align: left;
-}
+  }
 
-
-.card-container {
+  .card-container {
     padding: 15%;
-}
-
-
+  }
 }
