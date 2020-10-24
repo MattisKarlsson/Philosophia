@@ -20,7 +20,7 @@ body {
 }
 
 .container-fluid {
-  padding: 20% 10%;
+  padding: 30% 10%;
 }
 
 a {
@@ -151,7 +151,7 @@ a {
 /* Cards */
 
 .card-container {
-  padding: 30% 4%;
+  padding: 35% 4%;
 }
 
 .card {
@@ -171,8 +171,12 @@ a {
   font-family: "Lora", serif;
 }
 
-.qoute-row {
-  margin-top: 1000px;
+.first-card {
+  padding-bottom: 2.5rem;
+}
+
+.second-card {
+  padding-bottom: 10rem;
 }
 
 /* Footer */
@@ -242,6 +246,17 @@ a {
     padding: 7% 15%;
   }
 
+  .feature-1 {
+    padding-top: 5rem;
+  }
+
+  .feature-2 {
+    padding-top: 5rem;
+  }
+
+  .feature-3 {
+    padding-top: 5rem;
+  }
   .top-row {
     text-align: left;
   }
